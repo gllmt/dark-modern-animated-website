@@ -6,7 +6,7 @@ import { Content, asLink } from "@prismicio/client";
 import { PrismicNextLink } from "@prismicio/next";
 import ButtonLink from "@/components/ButtonLink";
 import WordMark from "@/components/WordMark";
-// import { MdMenu, MdClose } from "react-icons/md";
+import { MdMenu, MdClose } from "react-icons/md";
 import clsx from "clsx";
 import { usePathname } from "next/navigation";
 
@@ -32,7 +32,7 @@ export default function NavBar({ settings }: NavBarProps) {
             aria-expanded={open}
             onClick={() => setOpen(true)}
           >
-            {/* <MdMenu /> */}
+            <MdMenu />
             <span className="sr-only">Open menu</span>
           </button>
         </div>
@@ -45,11 +45,11 @@ export default function NavBar({ settings }: NavBarProps) {
         >
           <button
             type="button"
-            className="fixed right-4 top-4 mb-4 block p-2 text-3xl text-white md:hidden"
+            className="fixed right-4 top-4 mt-2 block p-2 text-3xl text-white md:hidden"
             aria-expanded={open}
             onClick={() => setOpen(false)}
           >
-            {/* <MdClose /> */}
+            <MdClose />
             <span className="sr-only">Close menu</span>
           </button>
 
