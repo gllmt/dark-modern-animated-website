@@ -65,6 +65,7 @@ const Showcase = ({ slice }: ShowcaseProps): JSX.Element => {
               : "lg:-order-1 lg:translate-x-[-15%]",
           )}
           sizes="(max-width: 768px) 100vw, 50vw"
+          alt=""
         />
       </div>
     </Bounded>

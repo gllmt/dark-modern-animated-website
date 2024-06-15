@@ -78,6 +78,7 @@ const CaseStudies = async ({
                     "rounded-xl lg:col-span-2",
                     index % 2 && "md:-order-1",
                   )}
+                  alt=""
                 />
               </div>
             ),

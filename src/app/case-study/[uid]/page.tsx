@@ -31,6 +31,7 @@ export default async function Page({ params }: { params: Params }) {
           field={page.data.logo_image}
           className="rounded-lg"
           quality={100}
+          alt=""
         />
       </div>
       <div className="mx-auto">
