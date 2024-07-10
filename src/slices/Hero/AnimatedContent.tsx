@@ -57,9 +57,9 @@ export default function AnimatedContent({
       );
       tl.fromTo(
         ".hero__image",
-        { y: 100 },
+        { y: 50 },
         { y: 0, scale: 1, opacity: 1, duration: 1.3 },
-        "-=0.6",
+        "-=1",
       );
       tl.fromTo(
         ".hero__glow",
