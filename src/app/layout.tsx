@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className="body bg-[#070815] text-white">
         <LenisScroll>
           <Header />
-          <main>{children}</main>
+          <main className="min-h-[70svh] md:min-h-[77svh]">{children}</main>
           <Footer />
         </LenisScroll>
       </body>
